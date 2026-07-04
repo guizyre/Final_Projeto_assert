@@ -1,0 +1,120 @@
+!SESSION 2026-07-03 14:05:47.918 -----------------------------------------------
+eclipse.buildId=Version 2.1.0
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-07-03 14:06:29.553
+!MESSAGE Log4j2 initialized with config file C:\assert\Projeto_assert\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-07-03 14:06:35.919
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-03 14:06:37.487
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM4
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-03 14:06:37.489
+!MESSAGE port: COM4
+!SESSION 2026-07-03 14:21:51.606 -----------------------------------------------
+eclipse.buildId=Version 2.1.0
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  C:\assert\Projeto_assert\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\assert\Projeto_assert\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-07-03 14:22:01.517
+!MESSAGE Log4j2 initialized with config file C:\assert\Projeto_assert\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-07-03 14:22:05.387
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-03 14:22:24.382
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM4
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-03 14:22:24.383
+!MESSAGE port: COM4
+!SESSION 2026-07-03 14:27:36.616 -----------------------------------------------
+eclipse.buildId=Version 2.1.0
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  C:\assert\Projeto_assert\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\assert\Projeto_assert\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-07-03 14:27:46.126
+!MESSAGE Log4j2 initialized with config file C:\assert\Projeto_assert\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-07-03 14:27:49.686
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-03 14:29:41.845
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM4
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-03 14:29:41.847
+!MESSAGE port: COM4
+!SESSION 2026-07-03 18:27:42.378 -----------------------------------------------
+eclipse.buildId=Version 2.1.0
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-07-03 18:28:25.680
+!MESSAGE Log4j2 initialized with config file C:\assert\Projeto_assert\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-07-03 18:28:30.016
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-03 18:28:31.911
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-03 18:28:31.911
+!MESSAGE port: 
+!SESSION 2026-07-03 18:28:55.536 -----------------------------------------------
+eclipse.buildId=Version 2.1.0
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-07-03 18:29:09.745
+!MESSAGE Log4j2 initialized with config file C:\assert\Projeto_assert\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-07-03 18:29:13.373
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-03 18:29:15.467
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-03 18:29:15.468
+!MESSAGE port: 
+!SESSION 2026-07-03 18:33:34.857 -----------------------------------------------
+eclipse.buildId=Version 2.1.0
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  C:\assert\Projeto_assert\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\assert\Projeto_assert\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-07-03 18:33:41.189
+!MESSAGE Log4j2 initialized with config file C:\assert\Projeto_assert\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-07-03 18:33:44.923
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-03 18:34:14.909
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-03 18:34:14.910
+!MESSAGE port: 

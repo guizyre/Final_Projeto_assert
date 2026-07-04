@@ -1,0 +1,4 @@
+../Core/Src/LedPwm.c:59:6:LedPwm_UpdateActive	16	static
+../Core/Src/LedPwm.c:74:6:LedPwm_SetSelected	16	static
+../Core/Src/LedPwm.c:83:9:LedPwm_GetDuty	16	static
+../Core/Src/LedPwm.c:101:13:ApplyDutyToHardware	24	static

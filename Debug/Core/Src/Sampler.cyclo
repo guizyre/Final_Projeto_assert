@@ -1,0 +1,2 @@
+../Core/Src/Sampler.c:44:6:Sampler_AddSample	3
+../Core/Src/Sampler.c:68:9:Sampler_GetAveragePercent	1

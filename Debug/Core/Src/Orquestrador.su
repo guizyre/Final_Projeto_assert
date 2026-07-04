@@ -1,0 +1,8 @@
+../Core/Src/Orquestrador.c:52:6:Orchestrator_Init	8	static
+../Core/Src/Orquestrador.c:60:6:Orchestrator_Run	8	static
+../Core/Src/Orquestrador.c:70:6:Orchestrator_ProcessButton	8	static
+../Core/Src/Orquestrador.c:77:6:Orchestrator_ProcessSamplingAndUI	168	static
+../Core/Src/Orquestrador.c:106:6:Orchestrator_ProcessUartCommand	8	static
+../Core/Src/Orquestrador.c:122:6:HAL_TIM_PeriodElapsedCallback	16	static
+../Core/Src/Orquestrador.c:131:6:HAL_GPIO_EXTI_Callback	16	static
+../Core/Src/Orquestrador.c:137:6:HAL_UART_RxCpltCallback	16	static

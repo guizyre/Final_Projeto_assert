@@ -1,0 +1,2 @@
+../Core/Src/Button.c:40:6:Button_ProcessDebounce	8	static
+../Core/Src/Button.c:51:6:Button_IsFrozen	4	static
