@@ -3,7 +3,7 @@
  * @file    Orchestrator.c
  * @addtogroup ORCHESTRATOR
  * @brief   Modulo principal de controle (Orquestrador) do sistema.
- * @author  Hillary Maximino Andrade
+ * @author  Guilherme Gonçalves
  * @details
  * \n <b>Ferramentas:</b>
  * - STM32CubeIDE, STM32CubeMX.

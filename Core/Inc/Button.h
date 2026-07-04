@@ -3,7 +3,7 @@
  * @file    Button.h
  * @addtogroup BUTTON
  * @brief   Cabecalho do gerenciamento do botao do usuario.
- * @author  Hillary Maximino Andrade
+ * @author  Guilherme Gonçalves
  * @{
  ******************************************************************************/
 

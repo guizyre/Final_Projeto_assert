@@ -3,7 +3,7 @@
  * @file    Orchestrator.h
  * @addtogroup ORCHESTRATOR
  * @brief   Cabecalho do modulo principal de controle (Orquestrador).
- * @author  Hillary Maximino Andrade
+ * @author  Guilherme Gonçalves
  * @{
  ******************************************************************************/
 

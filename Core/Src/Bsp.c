@@ -3,7 +3,7 @@
  * @file    Bsp.c
  * @addtogroup BSP
  * @brief   Camada de abstracao do hardware (Board Support Package).
- * @author  Seu Nome
+ * @author  Guilherme Gonçalves
  * @details
  * \n <b>Ferramentas:</b>
  * - STM32CubeIDE, STM32CubeMX.
@@ -13,7 +13,8 @@
  *
  * \n <b>Observacoes:</b>
  * - Este arquivo e o unico que acessa diretamente as funcoes HAL_*.
- * - Toda configuracao de pinos e perifericos de baixo nivel esta aqui.
+ * - Toda configuracao de pinos e perifericos de baixo nivel.
+ * -
  *
  * @{
  ******************************************************************************/
@@ -46,7 +47,7 @@ void Bsp_Init(void) {
     Bsp_TimerSampling_StartIT();
     Bsp_Pwm_StartAll();
 
-    // Garante que todos os LEDs comecem fisicamente em 0% (apagados)
+    // Garante que todos os LEDs comecem fisicamente em 0%
     Bsp_Pwm_SetDuty(TIM_CHANNEL_1, 0);
     Bsp_Pwm_SetDuty(TIM_CHANNEL_2, 0);
     Bsp_Pwm_SetDuty(TIM_CHANNEL_3, 0);
@@ -62,7 +63,7 @@ void Bsp_Adc_Start(void) {
 
 /******************************************************************************/
 /** @brief  Realiza a leitura do valor convertido pelo ADC via polling.
- * @retval Valor da conversao do ADC (0 a 4095) ou 0 em caso de falha.
+ * @retval Valor da conversao do ADC 0 a 4095 ou 0 em caso de falha.
  ******************************************************************************/
 uint32_t Bsp_Adc_GetValue(void) {
     if (HAL_ADC_PollForConversion(&hadc1, 10) == HAL_OK) {

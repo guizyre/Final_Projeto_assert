@@ -39,15 +39,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  17 .debug_macro  00022ead  00000000  00000000  0001b1f3  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_line   00011ebc  00000000  00000000  0003e0a0  2**0
+ 18 .debug_line   00011eb6  00000000  00000000  0003e0a0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_str    000d8221  00000000  00000000  0004ff5c  2**0
+ 19 .debug_str    000d8221  00000000  00000000  0004ff56  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .comment      00000043  00000000  00000000  0012817d  2**0
+ 20 .comment      00000043  00000000  00000000  00128177  2**0
                   CONTENTS, READONLY
- 21 .debug_frame  00003f44  00000000  00000000  001281c0  2**2
+ 21 .debug_frame  00003f44  00000000  00000000  001281bc  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_line_str 00000047  00000000  00000000  0012c104  2**0
+ 22 .debug_line_str 00000047  00000000  00000000  0012c100  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -454,7 +454,7 @@ void Bsp_Init(void) {
     Bsp_Pwm_StartAll();
  80005b4:	f000 f82c 	bl	8000610 <Bsp_Pwm_StartAll>
 
-    // Garante que todos os LEDs comecem fisicamente em 0% (apagados)
+    // Garante que todos os LEDs comecem fisicamente em 0%
     Bsp_Pwm_SetDuty(TIM_CHANNEL_1, 0);
  80005b8:	2100      	movs	r1, #0
  80005ba:	2000      	movs	r0, #0
@@ -493,7 +493,7 @@ void Bsp_Adc_Start(void) {
 
 /******************************************************************************/
 /** @brief  Realiza a leitura do valor convertido pelo ADC via polling.
- * @retval Valor da conversao do ADC (0 a 4095) ou 0 em caso de falha.
+ * @retval Valor da conversao do ADC 0 a 4095 ou 0 em caso de falha.
  ******************************************************************************/
 uint32_t Bsp_Adc_GetValue(void) {
  80005e8:	b580      	push	{r7, lr}
@@ -811,7 +811,7 @@ bool Button_IsFrozen(void) {
 08000794 <LedPwm_UpdateActive>:
 /******************************************************************************/
 /** @brief  Atualiza o brilho do LED atualmente selecionado.
- * @param  percent: Intensidade desejada (0 a 100%).
+ * @param  percent: Intensidade desejada
  * @retval Nenhum.
  ******************************************************************************/
 void LedPwm_UpdateActive(uint8_t percent) {
@@ -1347,11 +1347,11 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
  8000af4:	20000082 	.word	0x20000082
 
 08000af8 <Sampler_AddSample>:
-/******************************************************************************/
 /** @brief  Adiciona uma nova amostra do ADC e processa a media quando necessario.
  * @param  adcValue: Valor bruto lido do ADC.
  * @retval true se uma nova media foi calculada, false caso contrario.
  ******************************************************************************/
+//chamada a cada 5ms pelo TIMER
 bool Sampler_AddSample(uint32_t adcValue) {
  8000af8:	b480      	push	{r7}
  8000afa:	b085      	sub	sp, #20
@@ -1505,13 +1505,13 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  Orchestrator_ProcessButton();
+	 Orchestrator_ProcessButton();
  8000bcc:	f7ff fe86 	bl	80008dc <Orchestrator_ProcessButton>
-	      Orchestrator_ProcessSamplingAndUI();
+	 Orchestrator_ProcessSamplingAndUI();
  8000bd0:	f7ff fe94 	bl	80008fc <Orchestrator_ProcessSamplingAndUI>
-	      Orchestrator_ProcessUartCommand();
+	 Orchestrator_ProcessUartCommand();
  8000bd4:	f7ff ff06 	bl	80009e4 <Orchestrator_ProcessUartCommand>
-	  Orchestrator_ProcessButton();
+	 Orchestrator_ProcessButton();
  8000bd8:	bf00      	nop
  8000bda:	e7f7      	b.n	8000bcc <main+0x28>
 

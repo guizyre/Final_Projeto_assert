@@ -3,7 +3,7 @@
  * @file    LedPwm.c
  * @addtogroup LED_PWM
  * @brief   Controle de intensidade dos LEDs por PWM e gerencia de estados.
- * @author  Hillary Maximino Andrade
+ * @author  Guilherme Gonçalves
  * @details
  * \n <b>Ferramentas:</b>
  * - STM32CubeIDE, STM32CubeMX.
@@ -36,7 +36,7 @@
 /// Indica qual LED esta sob controle do potenciometro no momento
 static ActiveLed_t currentActiveLed = LED_1;
 
-/// Armazenam o ultimo percentual (duty cycle) aplicado a cada LED
+/// Armazenam o ultimo percentual duty cycle aplicado a cada LED
 static uint8_t dutyLed1 = 0;
 static uint8_t dutyLed2 = 0;
 static uint8_t dutyLed3 = 0;
@@ -53,7 +53,7 @@ static void ApplyDutyToHardware(ActiveLed_t led, uint8_t percent);
 
 /******************************************************************************/
 /** @brief  Atualiza o brilho do LED atualmente selecionado.
- * @param  percent: Intensidade desejada (0 a 100%).
+ * @param  percent: Intensidade desejada
  * @retval Nenhum.
  ******************************************************************************/
 void LedPwm_UpdateActive(uint8_t percent) {

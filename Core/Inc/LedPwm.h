@@ -3,7 +3,7 @@
  * @file    LedPwm.h
  * @addtogroup LED_PWM
  * @brief   Cabecalho do controle de intensidade dos LEDs por PWM.
- * @author  Hillary Maximino Andrade
+ * @author  Guilherme Gonçalves
  * @{
  ******************************************************************************/
 

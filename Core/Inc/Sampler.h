@@ -3,7 +3,7 @@
  * @file    Sampler.h
  * @addtogroup SAMPLER
  * @brief   Cabecalho do modulo de aquisicao e filtragem de sinais.
- * @author  Hillary Maximino Andrade
+ * @author  Guilherme Gonçalves
  * @{
  ******************************************************************************/
 
@@ -33,6 +33,7 @@
 /** @brief Adiciona uma nova amostra do ADC ao filtro.
  * @param adcValue: Valor bruto lido do ADC.
  * @retval true se a media foi recalculada, false caso contrario. */
+//retornar true no exato momento quando atingir as 100 amostras)
 bool Sampler_AddSample(uint32_t adcValue);
 
 /** @brief Retorna a ultima media calculada em porcentagem.

@@ -3,7 +3,7 @@
  * @file    Button.c
  * @addtogroup BUTTON
  * @brief   Gerenciamento do botao do usuario com logica de congelamento.
- * @author  Hillary Maximino Andrade
+ * @author  Guilherme Gonçalves
  * @details
  * \n <b>Ferramentas:</b>
  * - STM32CubeIDE, STM32CubeMX.

@@ -1,2 +1,2 @@
-../Core/Src/Sampler.c:44:6:Sampler_AddSample	24	static
-../Core/Src/Sampler.c:68:9:Sampler_GetAveragePercent	4	static
+../Core/Src/Sampler.c:45:6:Sampler_AddSample	24	static
+../Core/Src/Sampler.c:69:9:Sampler_GetAveragePercent	4	static

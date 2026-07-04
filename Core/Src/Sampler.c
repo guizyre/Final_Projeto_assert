@@ -3,7 +3,7 @@
  * @file    Sampler.c
  * @addtogroup SAMPLER
  * @brief   Modulo de aquisicao e filtragem de sinais analogicos.
- * @author  Hillary Maximino Andrade
+ * @author  Guilherme Gonçaves
  * @details
  * \n <b>Ferramentas:</b>
  * - STM32CubeIDE, STM32CubeMX.
@@ -41,6 +41,7 @@ static uint8_t lastAveragePercent = 0;
  * @param  adcValue: Valor bruto lido do ADC.
  * @retval true se uma nova media foi calculada, false caso contrario.
  ******************************************************************************/
+//chamada a cada 5ms pelo TIMER
 bool Sampler_AddSample(uint32_t adcValue) {
     sampleSum += adcValue;
     sampleCount++;
